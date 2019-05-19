@@ -8,9 +8,10 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.collect do |group, item|
+  items = groceries.collect do |group|
     groceries.values
   end
     
+items.flatten
 
 end
