@@ -13,7 +13,9 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.collect do |key, value|
+    if key[favorite_icecream_flavors] == "strawberry"
+      key[favorite_icecream_flavors].delete
 
 
   #remember to return your newly altered contacts hash!
